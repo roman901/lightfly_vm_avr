@@ -1,5 +1,0 @@
-/home/spark/Projects/lightfly_vm_avr/build/CMakeFiles/edit_cache.dir
-/home/spark/Projects/lightfly_vm_avr/build/CMakeFiles/rebuild_cache.dir
-/home/spark/Projects/lightfly_vm_avr/build/CMakeFiles/upload_lightfly_vm_avr.dir
-/home/spark/Projects/lightfly_vm_avr/build/CMakeFiles/lightfly_vm_avr.dir
-/home/spark/Projects/lightfly_vm_avr/build/CMakeFiles/lightfly_vm_avr.elf.dir
