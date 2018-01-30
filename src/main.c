@@ -22,8 +22,18 @@ int main()
     DDRD |= _BV(DDD4);
 
     // Program definition
-    unsigned char raw_program[] PROGMEM = {0x55, 0x57, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0xFA, 0xFF};
-    size_t length = 10;
+
+    /*
+     * First three bytes - program header - magic word and bytecode version
+     */
+
+    /*
+     * This program only runs infinity loop
+     */
+    unsigned char raw_program[] PROGMEM = {0x55, 0x57, 0x01, 0x1B, 0x00, 0x00};
+
+
+    size_t length = sizeof(raw_program) / sizeof(raw_program[0]);
 
     if (!lf_loader_check_header(raw_program)) {
         errors_blink_parse();
