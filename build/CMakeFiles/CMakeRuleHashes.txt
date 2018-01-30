@@ -1,0 +1,4 @@
+# Hashes of file build rules.
+c7ef369cb6fe327307bdd3b51b8b2207 CMakeFiles/lightfly_vm_avr
+cebd7e96179c2d42d0888d8d650da7d6 CMakeFiles/upload_lightfly_vm_avr
+bbc4125707f6e5f18f3773f1186876eb lightfly_vm_avr.hex

@@ -1,0 +1,165 @@
+The target system is: Generic -  - 
+The host system is: Linux - 4.14.15-1-ARCH - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/avr-gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/spark/Projects/lightfly_vm_avr/build/CMakeFiles/3.10.2/CompilerIdC/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/spark/Projects/lightfly_vm_avr/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_19647/fast"
+/usr/bin/make -f CMakeFiles/cmTC_19647.dir/build.make CMakeFiles/cmTC_19647.dir/build
+make[1]: Entering directory '/home/spark/Projects/lightfly_vm_avr/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_19647.dir/testCCompiler.c.obj
+/usr/bin/avr-gcc   -O3 -DNDEBUG   -o CMakeFiles/cmTC_19647.dir/testCCompiler.c.obj   -c /home/spark/Projects/lightfly_vm_avr/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_19647
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_19647.dir/link.txt --verbose=1
+/usr/bin/avr-gcc   -O3 -DNDEBUG    CMakeFiles/cmTC_19647.dir/testCCompiler.c.obj  -o cmTC_19647 
+make[1]: Leaving directory '/home/spark/Projects/lightfly_vm_avr/build/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/spark/Projects/lightfly_vm_avr/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8647c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8647c.dir/build.make CMakeFiles/cmTC_8647c.dir/build
+make[1]: Entering directory '/home/spark/Projects/lightfly_vm_avr/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8647c.dir/CMakeCCompilerABI.c.obj
+/usr/bin/avr-gcc   -O3 -DNDEBUG   -o CMakeFiles/cmTC_8647c.dir/CMakeCCompilerABI.c.obj   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_8647c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8647c.dir/link.txt --verbose=1
+/usr/bin/avr-gcc   -O3 -DNDEBUG   -v CMakeFiles/cmTC_8647c.dir/CMakeCCompilerABI.c.obj  -o cmTC_8647c 
+Using built-in specs.
+Reading specs from /usr/lib/gcc/avr/7.3.0/device-specs/specs-avr2
+COLLECT_GCC=/usr/bin/avr-gcc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/avr/7.3.0/lto-wrapper
+Target: avr
+Configured with: /build/avr-gcc/src/gcc-7-20180125/configure --disable-install-libiberty --disable-libssp --disable-libstdcxx-pch --disable-libunwind-exceptions --disable-linker-build-id --disable-nls --disable-werror --disable-__cxa_atexit --enable-checking=release --enable-clocale=gnu --enable-gnu-unique-object --enable-gold --enable-languages=c,c++ --enable-ld=default --enable-lto --enable-plugin --enable-shared --infodir=/usr/share/info --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --prefix=/usr --target=avr --with-as=/usr/bin/avr-as --with-gnu-as --with-gnu-ld --with-ld=/usr/bin/avr-ld --with-plugin-ld=ld.gold --with-system-zlib --with-isl --enable-gnu-indirect-function
+Thread model: single
+gcc version 7.3.0 (GCC) 
+COMPILER_PATH=/usr/lib/gcc/avr/7.3.0/:/usr/lib/gcc/avr/7.3.0/:/usr/lib/gcc/avr/:/usr/lib/gcc/avr/7.3.0/:/usr/lib/gcc/avr/
+LIBRARY_PATH=/usr/lib/gcc/avr/7.3.0/:/usr/lib/gcc/avr/7.3.0/../../../../avr/lib/
+COLLECT_GCC_OPTIONS='-O3' '-D' 'NDEBUG' '-v' '-o' 'cmTC_8647c' '-specs=device-specs/specs-avr2'
+ /usr/lib/gcc/avr/7.3.0/collect2 -plugin /usr/lib/gcc/avr/7.3.0/liblto_plugin.so -plugin-opt=/usr/lib/gcc/avr/7.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cciRPlvI.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lc -o cmTC_8647c -L/usr/lib/gcc/avr/7.3.0 -L/usr/lib/gcc/avr/7.3.0/../../../../avr/lib CMakeFiles/cmTC_8647c.dir/CMakeCCompilerABI.c.obj --start-group -lgcc -lm -lc --end-group
+COLLECT_GCC_OPTIONS='-O3' '-D' 'NDEBUG' '-v' '-o' 'cmTC_8647c' '-specs=device-specs/specs-avr2'
+make[1]: Leaving directory '/home/spark/Projects/lightfly_vm_avr/build/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(avr-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/spark/Projects/lightfly_vm_avr/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_8647c/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_8647c.dir/build.make CMakeFiles/cmTC_8647c.dir/build]
+  ignore line: [make[1]: Entering directory '/home/spark/Projects/lightfly_vm_avr/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_8647c.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [/usr/bin/avr-gcc   -O3 -DNDEBUG   -o CMakeFiles/cmTC_8647c.dir/CMakeCCompilerABI.c.obj   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_8647c]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8647c.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/avr-gcc   -O3 -DNDEBUG   -v CMakeFiles/cmTC_8647c.dir/CMakeCCompilerABI.c.obj  -o cmTC_8647c ]
+  ignore line: [Using built-in specs.]
+  ignore line: [Reading specs from /usr/lib/gcc/avr/7.3.0/device-specs/specs-avr2]
+  ignore line: [COLLECT_GCC=/usr/bin/avr-gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/avr/7.3.0/lto-wrapper]
+  ignore line: [Target: avr]
+  ignore line: [Configured with: /build/avr-gcc/src/gcc-7-20180125/configure --disable-install-libiberty --disable-libssp --disable-libstdcxx-pch --disable-libunwind-exceptions --disable-linker-build-id --disable-nls --disable-werror --disable-__cxa_atexit --enable-checking=release --enable-clocale=gnu --enable-gnu-unique-object --enable-gold --enable-languages=c,c++ --enable-ld=default --enable-lto --enable-plugin --enable-shared --infodir=/usr/share/info --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --prefix=/usr --target=avr --with-as=/usr/bin/avr-as --with-gnu-as --with-gnu-ld --with-ld=/usr/bin/avr-ld --with-plugin-ld=ld.gold --with-system-zlib --with-isl --enable-gnu-indirect-function]
+  ignore line: [Thread model: single]
+  ignore line: [gcc version 7.3.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/avr/7.3.0/:/usr/lib/gcc/avr/7.3.0/:/usr/lib/gcc/avr/:/usr/lib/gcc/avr/7.3.0/:/usr/lib/gcc/avr/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/avr/7.3.0/:/usr/lib/gcc/avr/7.3.0/../../../../avr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-O3' '-D' 'NDEBUG' '-v' '-o' 'cmTC_8647c' '-specs=device-specs/specs-avr2']
+  link line: [ /usr/lib/gcc/avr/7.3.0/collect2 -plugin /usr/lib/gcc/avr/7.3.0/liblto_plugin.so -plugin-opt=/usr/lib/gcc/avr/7.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cciRPlvI.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lc -o cmTC_8647c -L/usr/lib/gcc/avr/7.3.0 -L/usr/lib/gcc/avr/7.3.0/../../../../avr/lib CMakeFiles/cmTC_8647c.dir/CMakeCCompilerABI.c.obj --start-group -lgcc -lm -lc --end-group]
+    arg [/usr/lib/gcc/avr/7.3.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/avr/7.3.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/avr/7.3.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cciRPlvI.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lm] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_8647c] ==> ignore
+    arg [-L/usr/lib/gcc/avr/7.3.0] ==> dir [/usr/lib/gcc/avr/7.3.0]
+    arg [-L/usr/lib/gcc/avr/7.3.0/../../../../avr/lib] ==> dir [/usr/lib/gcc/avr/7.3.0/../../../../avr/lib]
+    arg [CMakeFiles/cmTC_8647c.dir/CMakeCCompilerABI.c.obj] ==> ignore
+    arg [--start-group] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lm] ==> lib [m]
+    arg [-lc] ==> lib [c]
+    arg [--end-group] ==> ignore
+  collapse library dir [/usr/lib/gcc/avr/7.3.0] ==> [/usr/lib/gcc/avr/7.3.0]
+  collapse library dir [/usr/lib/gcc/avr/7.3.0/../../../../avr/lib] ==> [/usr/avr/lib]
+  implicit libs: [gcc;m;c]
+  implicit dirs: [/usr/lib/gcc/avr/7.3.0;/usr/avr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /home/spark/Projects/lightfly_vm_avr/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6977b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6977b.dir/build.make CMakeFiles/cmTC_6977b.dir/build
+make[1]: Entering directory '/home/spark/Projects/lightfly_vm_avr/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6977b.dir/feature_tests.c.obj
+/usr/bin/avr-gcc   -O3 -DNDEBUG   -std=c11 -o CMakeFiles/cmTC_6977b.dir/feature_tests.c.obj   -c /home/spark/Projects/lightfly_vm_avr/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_6977b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6977b.dir/link.txt --verbose=1
+/usr/bin/avr-gcc   -O3 -DNDEBUG    CMakeFiles/cmTC_6977b.dir/feature_tests.c.obj  -o cmTC_6977b 
+make[1]: Leaving directory '/home/spark/Projects/lightfly_vm_avr/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/spark/Projects/lightfly_vm_avr/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_41f07/fast"
+/usr/bin/make -f CMakeFiles/cmTC_41f07.dir/build.make CMakeFiles/cmTC_41f07.dir/build
+make[1]: Entering directory '/home/spark/Projects/lightfly_vm_avr/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_41f07.dir/feature_tests.c.obj
+/usr/bin/avr-gcc   -O3 -DNDEBUG   -std=c99 -o CMakeFiles/cmTC_41f07.dir/feature_tests.c.obj   -c /home/spark/Projects/lightfly_vm_avr/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_41f07
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_41f07.dir/link.txt --verbose=1
+/usr/bin/avr-gcc   -O3 -DNDEBUG    CMakeFiles/cmTC_41f07.dir/feature_tests.c.obj  -o cmTC_41f07 
+make[1]: Leaving directory '/home/spark/Projects/lightfly_vm_avr/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/spark/Projects/lightfly_vm_avr/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_18c58/fast"
+/usr/bin/make -f CMakeFiles/cmTC_18c58.dir/build.make CMakeFiles/cmTC_18c58.dir/build
+make[1]: Entering directory '/home/spark/Projects/lightfly_vm_avr/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_18c58.dir/feature_tests.c.obj
+/usr/bin/avr-gcc   -O3 -DNDEBUG   -std=c90 -o CMakeFiles/cmTC_18c58.dir/feature_tests.c.obj   -c /home/spark/Projects/lightfly_vm_avr/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_18c58
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_18c58.dir/link.txt --verbose=1
+/usr/bin/avr-gcc   -O3 -DNDEBUG    CMakeFiles/cmTC_18c58.dir/feature_tests.c.obj  -o cmTC_18c58 
+make[1]: Leaving directory '/home/spark/Projects/lightfly_vm_avr/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
